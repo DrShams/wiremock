@@ -5,35 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="422b8628-c0ae-4a93-874f-26f7f203e5fe" name="Changes" comment="+100 orders">
-      <change beforePath="$PROJECT_DIR$/../L2/L2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/src/apple.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/src/main/java/Orders/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/src/main/java/Products/Apple.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/src/main/java/Products/Orange.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/src/main/java/Products/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/src/main/java/Tasks/Task1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/src/main/java/Tasks/Task2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/src/orange.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/src/order.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/src/product.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/src/product.json.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/target/L2-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/target/classes/Orders/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/target/classes/Products/Apple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/target/classes/Products/Orange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/target/classes/Products/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/target/classes/Tasks/Task1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/target/classes/Tasks/Task2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L2/L2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../L3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/order_example.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/order_example2.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -92,8 +68,10 @@
   </component>
   <component name="RunManager">
     <configuration name="Orders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Orders" />
-      <module name="L2" />
+      <module name="2_ProductsOrders" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
