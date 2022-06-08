@@ -1,9 +1,7 @@
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 
-//добавить аннотации для работы при десериализации
-//@JsonTypeInfo - или удалить
 @JsonAutoDetect
-public class Delivery_address {
+public class Delivery_address {//Создаем класс адреса доставки (состоит из полей страна, город, улица, дом, этаж, квартира).
     //
     public String country, city, street;
     public int home, level, room;

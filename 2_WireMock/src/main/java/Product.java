@@ -10,6 +10,12 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo;
 })
 @JsonAutoDetect
 
+/*
+Создать базовый класс продукта: состоит из цены(price), названия(title), веса(weight) (поле должно быть игнорируемым), а также наследников
+    Яблоко(Apple): содержит дополнительное поле цвет(color),
+    Апельсин(Orange): содержит дополнительное поле наличие косточек(withBones),
+сериализовать объект каждого из классов в json файл, десериализовать из файла в объект.
+ */
 public class Product {
     public Product() {
 

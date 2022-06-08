@@ -4,8 +4,8 @@ import java.util.List;
 @JsonAutoDetect
 public class Order {
     public int id;//номер заказа
-    public Delivery_address address;
 
+    public Delivery_address address;
     public List<Product> productList;//список продуктов
 
     public Order() {
@@ -24,9 +24,10 @@ public class Order {
                 '}';
     }
 
-    public Order(List<Product> productList, Delivery_address address) {//тип данных
-        id++;
-        this.productList = productList;
+    public Order(int id, Delivery_address address,List<Product> productList) {//тип данных
+        this.id = id;
         this.address = address;
+        this.productList = productList;
+
     }
 }
