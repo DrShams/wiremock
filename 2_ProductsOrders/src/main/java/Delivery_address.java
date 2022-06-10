@@ -19,8 +19,8 @@ public class Delivery_address {//Создаем класс адреса дост
         this.room = room;
     }
 
-    @Override//переопределение
-    public String toString() {//строчное представление обьекта
+    @Override
+    public String toString() {
         return "Delivery_address{" +
                 "country='" + country + '\'' +
                 ", city='" + city + '\'' +
@@ -30,6 +30,4 @@ public class Delivery_address {//Создаем класс адреса дост
                 ", room=" + room +
                 '}';
     }
-
-
 }

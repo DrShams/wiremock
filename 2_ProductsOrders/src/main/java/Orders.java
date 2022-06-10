@@ -1,12 +1,15 @@
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import java.io.*;//FileReader + FileWriter + IOException
-import java.util.*;//ArrayList + List
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Orders {
 
     public static void main(String[] args) throws IOException {//компилятор говорит о том, что в этом месте возможна проблема ввода-вывода
-
+        int num_iterations = 100;//количество итераций адресов+список продуктов
         List<Order> orderList = new ArrayList<>();//создаем список заказов
         List<Product> productList = new ArrayList<>();//создаем список продуктов, который будет позже наполнять
 
@@ -16,7 +19,7 @@ public class Orders {
         productList.add(orange);
         productList.add(apple);
 
-        for (int id = 0; id < 100; id++) {
+        for (int id = 0; id < num_iterations; id++) {
             Delivery_address address = new Delivery_address("Russia", "Ufa", "Korolev", 6, 4, 1+id);//the owner of the house ))
             Order order = new Order(id, address, productList);
             orderList.add(order);
@@ -29,5 +32,4 @@ public class Orders {
         orderList = mapper.readValue(fileReader, ArrayList.class);
         System.out.println(orderList.toString());//
     }
-
 }

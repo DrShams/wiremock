@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="422b8628-c0ae-4a93-874f-26f7f203e5fe" name="Changes" comment="+100 orders">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Delivery_address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Delivery_address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Orders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/order_example.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/order_example2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Orders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Orders.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654691341341</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="+100 orders">
+      <created>1654692005484</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654692005484</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,5 +165,12 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="+100 orders" />
     <option name="LAST_COMMIT_MESSAGE" value="+100 orders" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="apple.color.value[0]" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
