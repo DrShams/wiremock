@@ -24,12 +24,13 @@ public class Orders {
             Order order = new Order(id, address, productList);
             orderList.add(order);
         }
-        ObjectMapper mapper = new ObjectMapper();// -> json
-        //записываем все содержимое в файл
+        ObjectMapper mapper = new ObjectMapper();// -> создать обьект json
+        //Сериализация -> записать в файл
         FileWriter fileWriter = new FileWriter("src/order.json");
         mapper.writeValue(fileWriter, orderList);
+        //Десериализация <- прочитать с файла
         FileReader fileReader = new FileReader("src/order.json");
-        orderList = mapper.readValue(fileReader, ArrayList.class);
+        orderList = mapper.readValue(fileReader, ArrayList.class);//ArrayList.list ? загуглить
         System.out.println(orderList.toString());//
     }
 }
