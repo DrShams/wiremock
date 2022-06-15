@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "PATCH",
+        "urlPathPattern": "/userupdate/([0-9]*)"
+    },
+    "response": {
+        "status": 200,
+        "body": "Age has been sucessefully updated",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

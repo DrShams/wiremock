@@ -1,0 +1,16 @@
+{
+	[
+		{
+			"name": "Ivan",
+			"lastname": "Petrov",
+			"age": "18",
+			"nickname": "Ivan18"
+		},
+		{
+			"name": "Petr",
+			"lastname": "Ivanov",
+			"age": "20",
+			"nickname": "Petr20"
+		}
+	]
+} 

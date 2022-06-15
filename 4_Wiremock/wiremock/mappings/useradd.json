@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "POST",
+        "urlPathPattern": "/useradd/([\\w]+)"
+    },
+    "response": {
+        "status": 200,
+        "body": "User has been successefully added",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
