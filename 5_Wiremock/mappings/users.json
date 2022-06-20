@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/users",
+    "bodyPatterns": [
+      {
+        "and": [
+          {
+            "matchesJsonPath": "$[?(@.users.size() == 2)]"
+          },
+          {
+            "matchesJsonPath": "$.users[?(@.name =~ /user([0-9]*)/i)]"
+          }
+        ]
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "body": "Users has been verified",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

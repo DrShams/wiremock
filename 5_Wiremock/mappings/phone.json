@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/phone",
+    "bodyPatterns": [
+      {
+        "equalToJson": "{ \"telephone_number\": \"${json-unit.regex}\\\\+[0-9]{11}\" }"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "body": "Phone number has been verified",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
