@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "06f7dc40-7520-4f61-afbc-0dad0829c2bc",
+		"name": "Homework_5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "mockService",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/service/99",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"service",
+						"99"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mockTransaction",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/transaction/?price=350&date=2022-06-10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"transaction",
+						""
+					],
+					"query": [
+						{
+							"key": "price",
+							"value": "350"
+						},
+						{
+							"key": "date",
+							"value": "2022-06-10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mockError",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/error",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"error"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mockPhone",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"telephone_number\":\"+79246543132\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/telephone",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"telephone"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mockUsers",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"users\": [{\r\n        \"name\": \"user1\"\r\n    },\r\n    {\r\n        \"name\": \"user2\"\r\n    }\r\n\r\n\r\n    ]\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
