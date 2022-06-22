@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "0b3e0a28-e2f8-432d-8015-27953644aee8",
+		"_postman_id": "b5547777-dbb4-4fa9-8694-c03f48f6f363",
 		"name": "Homework5",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -9,7 +9,18 @@
 			"name": "service",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://{{HOST}}/service/Nickname23",
+					"protocol": "http",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"service",
+						"Nickname23"
+					]
+				}
 			},
 			"response": []
 		},
@@ -17,33 +28,126 @@
 			"name": "transacation",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://{{HOST}}/transaction/?price=999&date=1991-09-23",
+					"protocol": "http",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"transaction",
+						""
+					],
+					"query": [
+						{
+							"key": "price",
+							"value": "999"
+						},
+						{
+							"key": "date",
+							"value": "1991-09-23"
+						}
+					]
+				}
 			},
 			"response": []
 		},
 		{
 			"name": "errorcode",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"error_code\": 123,\r\n    \"description\": \"Division by zero\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://{{HOST}}/errorcode",
+					"protocol": "http",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"errorcode"
+					]
+				}
 			},
 			"response": []
 		},
 		{
 			"name": "phone",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"telephone_number\": \"+79656559552\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://{{HOST}}/phone",
+					"protocol": "http",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"phone"
+					]
+				}
 			},
 			"response": []
 		},
 		{
 			"name": "users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"users\": [\r\n        {\r\n            \"name\": \"user1\"\r\n        },\r\n        {\r\n            \"name\": \"user2\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://{{HOST}}/users",
+					"protocol": "http",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"users"
+					]
+				}
 			},
 			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "HOST",
+			"value": "192.168.31.239:8080"
 		}
 	]
 }

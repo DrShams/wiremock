@@ -30,4 +30,5 @@ public class Delivery_address {//Создаем класс адреса дост
                 ", room=" + room +
                 '}';
     }
+
 }
