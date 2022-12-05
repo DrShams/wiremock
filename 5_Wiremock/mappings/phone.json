@@ -5,7 +5,8 @@
   },
   "response": {
     "status": 200,
-    "body": "{\n\"response\": \"Phone number has been verified\n\t\"response2\": \"Molodec\"}",
+    "body": "{\n\"response\": \"Phone number has been verified\"\
+    \n\t\"response2\": \"Molodec\"}",
     "headers": {
       "Content-Type": "application/json"
     }
