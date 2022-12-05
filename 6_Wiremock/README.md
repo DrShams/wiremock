@@ -1,4 +1,5 @@
 # Практика
+java -jar wiremock-jre8-standalone-2.33.2.jar --port 8181 --verbose --global-response-templating
 
 ## Задание 1.
 Создать заглушку с телом (equalToXml) и фиксированной задержкой в 2 секунды:

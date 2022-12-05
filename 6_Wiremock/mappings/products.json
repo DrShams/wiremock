@@ -1,0 +1,15 @@
+{
+  "request": {
+    "urlPathPattern": "/products",
+    "method": "GET",
+    "bodyPatterns":
+    [
+      {
+        "matchesXPath": "products[count(product[price>=40]) = 2]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "request": {
+        "urlPathPattern": "/template",
+        "method": "GET",
+        "queryParameters": {
+            "nameOfFile": {
+                "matches": "[A-Za-z0-9]*"
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "fixedDelayMilliseconds": 2000,
+        "bodyFileName": "{{request.query.nameOfFile}}.json",
+        "transformers": [
+            "response-template"
+        ]
+    }
+}

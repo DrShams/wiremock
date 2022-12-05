@@ -1,0 +1,21 @@
+{
+  "request": {
+    "urlPathPattern": "/user/([0-9]*)",
+    "method": "POST",
+    "bodyPatterns":
+    [
+      {
+        "matchesXPath": "//login",
+        "matchesXPath": "//password"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "delayDistribution": {
+      "type": "uniform",
+      "lower": 1500,
+      "upper": 2500
+    }
+  }
+}

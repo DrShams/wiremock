@@ -1,0 +1,16 @@
+{
+  "request": {
+    "urlPathPattern": "/address/([0-9]*)",
+    "method": "POST",
+    "bodyPatterns":
+    [
+      {
+        "equalToXml": "<Address><Name>Ruslan</Name><Street>Korolev street</Street><City>Ufa</City></Address>"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 2000
+  }
+}
